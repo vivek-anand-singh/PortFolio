@@ -1,0 +1,23 @@
+#iconsmain {
+    display: flex;
+    color: white;
+  }
+  img {
+    height: 3vw;
+    width: 3vw;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+  }
+  
+  #ToolsPlatforms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  

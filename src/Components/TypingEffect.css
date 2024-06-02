@@ -1,0 +1,9 @@
+.typing-effect{
+    font-size: 2vw;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vw;
+}

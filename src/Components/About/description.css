@@ -1,0 +1,29 @@
+#description{
+    display: flex;
+}
+
+#description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    height: auto;
+    width: auto;
+}
+
+#description-text{
+    width: 50%;
+    padding: 5%;
+    font-size: 1vw;
+    color:white;
+}
+
+#description-image{
+    width: 50%;
+    color: white;   
+    padding: 5%;
+}
+img{
+    width: 70%;
+    height: 70%;
+}

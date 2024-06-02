@@ -1,0 +1,23 @@
+*{
+    background-color: #141212;
+}
+
+#name{
+    background-color: #141212;
+    color:white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    size:100%;
+    margin: 8vw;
+}
+
+h1{
+    font-size: 3vw;
+}
+
+
+
+
