@@ -28,11 +28,11 @@ function App() {
                 duration={1000}/>
               } 
             /> 
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/experience" element={<Experience />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/experience" element={<Experience />} />
           </Routes>
         </div>
       </Router>
