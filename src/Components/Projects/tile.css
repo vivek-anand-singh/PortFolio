@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
+/* Container for the tiles */
+.tile-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px; /* Maximum width of the container */
+}
+
+/* Tile styles */
 .tile {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: calc(33.333% - 40px); /* Width adjusted for three tiles per row */
+    margin-bottom: 20px; /* Space between rows */
     height: 70vh;
     background-color: black;
     border-radius: 10px;
@@ -18,7 +31,7 @@
     color: #f5f5f5;
 }
 
-.tile img{
+.tile img {
     width: 100%;
     height: 30%;
     border-radius: 10px 10px 0 0;
