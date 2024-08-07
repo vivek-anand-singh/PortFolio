@@ -7,6 +7,7 @@ import Skills from './Components/Skills/skills'
 import Projects from './Components/Projects/project.js';
 import Education from './Components/Education/education.js';
 import Experience from './Components/Experience/experience.js';
+import Resume from './Components/Resume/Resume.js';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/education" element={<Education />} />
             <Route path="/experience" element={<Experience />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
         </div>
       </Router>

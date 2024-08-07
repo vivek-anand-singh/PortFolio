@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+}
+
+.resume-button {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.crazy-button {
+    background-color: #1f1f1f; /* Dark button background */
+    color: #e0e0e0; /* Light button text */
+    border: 2px solid #bb86fc; /* Light border color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px #bb86fc, 0 0 20px #bb86fc, 0 0 30px #bb86fc;
+    animation: crazy-animation 1.5s infinite alternate;
+}
+
+@keyframes crazy-animation {
+    0% {
+        transform: rotate(0deg) scale(1);
+        background-color: #1f1f1f;
+        box-shadow: 0 0 10px #bb86fc, 0 0 20px #bb86fc, 0 0 30px #bb86fc;
+    }
+    50% {
+        transform: rotate(10deg) scale(1.1);
+        background-color: #bb86fc;
+        color: #121212;
+        box-shadow: 0 0 20px #bb86fc, 0 0 40px #bb86fc, 0 0 60px #bb86fc;
+    }
+    100% {
+        transform: rotate(-10deg) scale(1.2);
+        background-color: #1f1f1f;
+        color: #e0e0e0;
+        box-shadow: 0 0 10px #bb86fc, 0 0 20px #bb86fc, 0 0 30px #bb86fc;
+    }
+}
