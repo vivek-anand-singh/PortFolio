@@ -6,17 +6,17 @@ import './experience.css';
 function Experience() {
     const experience = [
         {
-            companyName: "Google",
+            companyName: "xyz",
             role: "Software Developer",
             year: "2023 - Present",
         },
         {
-            companyName: "Microsoft",
+            companyName: "abc",
             role: "Software Developer Intern",
             year: "2022",
         },
         {
-            companyName: "Amazon",
+            companyName: "mno",
             role: "Software Developer Intern",
             year: "2021",
         }
